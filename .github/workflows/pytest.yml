@@ -20,7 +20,7 @@ jobs:
       run: |
         PYTHONPATH=. pytest tests/
     
-    test-job2:
+  test-job2:
     - name: Print Hello world
       run: |
         echo "This my workflow"
