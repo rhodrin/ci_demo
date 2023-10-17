@@ -1,4 +1,4 @@
-import nested_sleep
+from profile_function import nested_sleep
 
 def test_short_sleep():
     a = 0.01
